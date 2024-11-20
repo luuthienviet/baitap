@@ -44,7 +44,11 @@ header .container {
     color: white;
     font-size: 16px;
   }
-  
+  header nav ul li .button{
+  border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
   header .hamburger {
     display: none;
   }
