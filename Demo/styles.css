@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* Khoảng cách giữa các mục */
+}
+
+.item {
+  text-align: center;
+  max-width: 300px; /* Đặt kích thước tối đa cho nội dung */
+}
+
+.item img {
+  width: 250px;  /* Đặt chiều rộng cố định */
+  height: 250px; /* Đặt chiều cao cố định */
+  object-fit: cover; /* Đảm bảo ảnh vừa khung */
+}
+
+.item h3 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.item p {
+  margin-top: 5px;
+  font-size: 14px;
+}
