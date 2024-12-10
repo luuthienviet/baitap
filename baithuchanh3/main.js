@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 const quizData = [
     {
         question: "What is the most used programing language in 2019?",
@@ -40,6 +41,7 @@ const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const sumbmitBtn = document.getElementById("submit");
+
 let currentQuiz = 0;
 let score = 0;
 
