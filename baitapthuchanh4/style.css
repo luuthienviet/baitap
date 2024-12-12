@@ -1,0 +1,10 @@
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 20px;
+}
+.h1 {
+    font-weight: bold;
+    line-height: 20px;
+}
