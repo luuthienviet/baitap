@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avic Ndugu - Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Ndugu Studio Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">MY WORK</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <img src="đaen.jpg" alt="Hero Image">
+      <div class="hero-text">
+        <h1>Hello, I am Avic Ndugu</h1>
+        <p>I use HTML and CSS to convert webpage designs into beautiful and efficient websites.</p>
+      </div>
+    </div>
+  </main>
+
+  <form>
+    <label for="name">* Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+  
+    <label for="email">* Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your Email"><br><br>
+  
+    <label for="age">* Age:</label><br>
+    <input type="number" id="age" name="age" placeholder="Age"><br><br>
+  
+    <label>Which option best describes your current role?</label><br>
+    <select>
+      <option>Student</option>
+    </select><br><br>
+  
+    <label>* How likely is it that you would recommend freeCodeCamp to a friend?</label><br>
+    <input type="radio" name="recommend" value="definitely"> Definitely<br>
+    <input type="radio" name="recommend" value="maybe"> Maybe<br>
+    <input type="radio" name="recommend" value="not_sure"> Not sure<br><br>
+  
+    <label>What do you like most in FCC:</label><br>
+    <select>
+      <option>Select an option</option>
+    </select><br><br>
+  
+    <label>Things that should be improved in the future (Check all that apply):</label>
+    <input type="checkbox" name="improve" value="frontend"> Front-end Projects<br>
+    <input type="checkbox" name="improve" value="backend"> Back-end Projects<br>
+    <input type="checkbox" name="improve" value="data"> Data Visualization<br>
+    
+    <button type="submit">Submit</button>
+
+  </form>
+
+
+  <section class="book-section">
+    <nav class="top-nav">
+      <a href="#">The book series</a>
+      <a href="#">Testimonials</a>
+      <a href="#">The Author</a>
+      <a href="#">Free resources</a>
+    </nav>
+  
+    <div class="book-content">
+      <div class="book-image">
+        <img src="sach.jpg" alt="You Don't Know JS Book">
+      </div>
+      <div class="book-info">
+        <h2>You don't know <code>JavaScript</code></h2>
+        <p>Don't just drift through Javascript.</p>
+        <p>Understand how Javascript works</p>
+        <p>Start your journey through the bumpy side of Javascript</p>
+        <button class="btn-orange">ORDER YOUR COPY NOW</button>
+      </div>
+    </div>
+    <form class="survey-form">
+        <div class="form-row">
+          <label for="name">* Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+      
+        <div class="form-row">
+          <label for="email">* Email:</label>
+          <input type="email" id="email" placeholder="Enter your Email" required>
+        </div>
+      
+        <div class="form-row">
+          <label for="age">* Age:</label>
+          <input type="number" id="age" placeholder="Age" required>
+        </div>
+      
+        <div class="form-row">
+          <label for="role">Which option best describes your current role?</label>
+          <select id="role">
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Other</option>
+          </select>
+        </div>
+      
+        <div class="form-row full-row">
+          <label>* Recommend freeCodeCamp?</label>
+          <div class="options-inline">
+            <label><input type="radio" name="recommend"> Definitely</label>
+            <label><input type="radio" name="recommend"> Maybe</label>
+            <label><input type="radio" name="recommend"> Not sure</label>
+          </div>
+        </div>
+      
+        <div class="form-row">
+          <label for="like">What do you like most in FCC:</label>
+          <select id="like">
+            <option>Challenges</option>
+            <option>Projects</option>
+          </select>
+        </div>
+      
+        <div class="form-row full-row">
+          <label>What should be improved:</label>
+          <div class="options-inline">
+            <label><input type="checkbox"> Front-end Projects</label>
+            <label><input type="checkbox"> Back-end Projects</label>
+            <label><input type="checkbox"> Data Visualization</label>
+          </div>
+        </div>
+      </form>
+
+    <div class="book-footer">
+      <p>The first ebook in the book series is absolutely free.</p>
+      <button class="btn-orange">FIND OUT MORE ABOUT THIS OFFER</button>
+    </div>
+  </section>
+</html>

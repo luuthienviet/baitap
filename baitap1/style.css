@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding-bottom: 4px;
+  }
+  
+  nav ul li a.active {
+    border-bottom: 3px solid #2bbdcf;
+    color: black;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* hoặc chiều cao phù hợp */
+    background-image: url('path/to/your-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    white-space: nowrap; /* Không cho h1 xuống dòng */
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0 auto;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    max-width: 100%;  /* Cho phép p dài ra */
+  }
+ 
+  body {
+    background-color: #c0ebeb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  form {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: normal;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .book-section {
+    background-color: #f0f0e9;
+    font-family: monospace;
+    padding: 40px 20px;
+  }
+  
+  .top-nav {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .top-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .book-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+  }
+  
+  .book-image img {
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  .book-info {
+    max-width: 400px;
+    text-align: left;
+    text-align: center;
+    line-height: 2.5;
+  }
+  
+  .book-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .book-info p {
+    margin: 10px 0;
+  }
+  
+  .btn-orange {
+    background-color: #ff7f32;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .book-footer {
+    background-color: #001f2e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .book-footer button {
+    margin-top: 15px;
+  }
